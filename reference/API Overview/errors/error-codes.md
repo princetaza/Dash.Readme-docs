@@ -27,6 +27,7 @@ Tazapay uses conventional HTTP responses to indicate success or failure of a req
 | 405        | Method Not Allowed : You tried to access with an invalid method. The server knows the request method, but the target resource doesn't support this method. eg: inputting an incorrect URL |
 | 406        | Not Acceptable : You requested a format that isn't JSON. Please check the file extension, syntax and/or formatting.                                                                       |
 | 410        | Not Available : The requested resource has been removed from our servers                                                                                                                  |
+| 424        | Failed Dependency : The request failed due to failure from dependency                        |
 | 429        | Too Many Requests: You've sent too many requests in a given amount of time                                                                                                                |
 | 500        | Internal Server Error : We had a problem with our server. Try again later                                                                                                                 |
 | 503        | Service Unavailable : We're temporarily offline for maintenance. Please try again later                                                                                                   |
